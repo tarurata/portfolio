@@ -1,8 +1,26 @@
+body{
+    font-family: 'M PLUS 1p'
+}
+.nabvar {
+    background-color: #f2dede;
+}
+
 .skill img {
     object-fit:cover;
     height: 100%;
 }
 
+.container .h2{
+    
+}
+
 .container {
-    height:  600px;
+    height:  700px;
+}
+
+.container.skills {
+    background-color: #d9edf7;
+}
+.container.works {
+    background-color: #dff0d8;
 }
