@@ -1,8 +1,11 @@
+html{
+    scroll-behavior: smooth;
+}
 body{
     font-family: 'M PLUS 1p'
 }
 .navbar {
-    background-color: rgba( 204, 255, 204, 0.55 );
+    background-color: rgba( 255, 215, 0, 0.55 );
 }
 
 .skill img {
@@ -22,17 +25,42 @@ body{
 }
 
 
-.contents {
-}
-
 .container.greeting {
     background-color: #dff0d8;
 }
+
 
 .container.skills {
     background-color: #d9edf7;
 
 }
+
+.card-img-top {
+   padding: 15px;
+   height: 50%; 
+}
+
 .container.works {
     background-color: #dff0d8;
+}
+
+.ribbon {
+  left: 0;
+  top: 0;
+  position: absolute;
+  height: 300px; 
+  width: 300px; 
+  transform: rotateZ(-45deg);
+}
+
+.ribbon span {
+  text-align: center;
+  display: block;
+  width: 100%;
+  height: 50px; 
+  line-height: 50px; 
+  background: #333;
+  color: #666;
+  font-size: 25px;
+  text-shadow: 1 1 3px #000;
 }
