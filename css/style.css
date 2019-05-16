@@ -20,7 +20,7 @@ body{
 .container {
     /*height:750px;*/
     /*display:flex;*/
-    /*justify-content:center;*/
+    justify-content:center;
     /*align-items:center;*/
 }
 
@@ -44,6 +44,16 @@ body{
     background-color: #dff0d8;
 }
 
+.container.carousel {
+    justify-content:center;
+}
+
+.carousel-inner img{
+    /*width:100%;*/
+    /*margin: auto;*/
+}
+
+
 .ribbon {
   left: 0;
   top: 0;
@@ -63,4 +73,23 @@ body{
   color: #666;
   font-size: 25px;
   text-shadow: 1 1 3px #000;
+}
+ 
+.carousel-item .img-fluid {
+  width:100%;
+  height:auto;
+}
+
+.carousel-item{
+  height: auto;
+}
+
+.carousel-item a {
+  display: block;
+  width:100%;
+}
+
+.carousel-item .show-image {
+  display: block;
+  width:100%;
 }
