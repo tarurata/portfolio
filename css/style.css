@@ -15,7 +15,13 @@ body{
 }
 
 .container {
-    height:  700px;
+    display:flex;
+    vertical-align:center;
+    align-items:center;
+}
+
+
+.contents {
 }
 
 .container.skills {
