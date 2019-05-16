@@ -1,8 +1,8 @@
 body{
     font-family: 'M PLUS 1p'
 }
-.nabvar {
-    background-color: #f2dede;
+.navbar {
+    background-color: rgba( 204, 255, 204, 0.55 );
 }
 
 .skill img {
@@ -15,8 +15,9 @@ body{
 }
 
 .container {
+    height:750px;
     display:flex;
-    vertical-align:center;
+    justify-content:center;
     align-items:center;
 }
 
@@ -24,8 +25,13 @@ body{
 .contents {
 }
 
+.container.greeting {
+    background-color: #dff0d8;
+}
+
 .container.skills {
     background-color: #d9edf7;
+
 }
 .container.works {
     background-color: #dff0d8;
