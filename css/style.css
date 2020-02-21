@@ -27,7 +27,17 @@ body{
 
 .container.greeting {
     background-color: #dff0d8;
+    /*width: 100%;*/
+    /*height: 100%;*/
+    /*position: absolute;*/
+    /*background-image: url('../images/sky_bg.jpg');*/
+    /*background-size: cover;*/
 }
+
+/*.bg {*/
+    /*background-color:white;*/
+    /*opacity: 0.5;*/
+/*}*/
 
 
 .container.skills {
